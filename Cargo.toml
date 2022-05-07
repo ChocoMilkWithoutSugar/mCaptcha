@@ -37,7 +37,7 @@ cache-buster = { git = "https://github.com/realaravinth/cache-buster" }
 futures = "0.3.15"
 tokio = { version = "1.14", features = ["sync"]}
 
-sqlx = { version = "0.5.13", features = [ "runtime-actix-rustls", "postgres", "time", "offline" ] }
+sqlx = { version = "0.5.5", features = [ "runtime-actix-rustls", "postgres", "time", "offline" ] }
 argon2-creds = { branch = "master", git = "https://github.com/realaravinth/argon2-creds"}
 #argon2-creds = { version="*", path = "../../argon2-creds/" }
 config = "0.11"
@@ -89,7 +89,7 @@ features = ["actix_identity_backend"]
 serde_json = "1"
 cache-buster = { version = "0.2.0", git = "https://github.com/realaravinth/cache-buster" }
 mime = "0.3.16"
-sqlx = { version = "0.5.13", features = [ "runtime-actix-rustls", "postgres", "time", "offline" ] }
+sqlx = { version = "0.5.5", features = [ "runtime-actix-rustls", "postgres", "time", "offline" ] }
 
 [dev-dependencies]
 pow_sha256 = { version = "0.2.1", git = "https://github.com/mcaptcha/pow_sha256" }
